@@ -37,4 +37,29 @@ public class MainActivity extends Activity {
         Intent intent = new Intent(this, SampledImageLoadActivity.class);
         startActivity(intent);
     }
+
+    public void onSimpleImageReleaseClick(View view) {
+        Intent intent = new Intent(this, SimpleImageReleaseActivity.class);
+        startActivity(intent);
+    }
+
+    public void onBitmapRecycleClick(View view) {
+        Intent intent = new Intent(this, BitmapRecycleActivity.class);
+        startActivity(intent);
+    }
+
+    public void onImageDetachClick(View view) {
+        Intent intent = new Intent(this, ImageDetachActivity.class);
+        startActivity(intent);
+    }
+
+    public void onHardwareOffReleaseClick(View view) {
+        Intent intent = new Intent(this, HardwareOffReleaseActivity.class);
+        startActivity(intent);
+    }
+
+    public void onViewHardwareOffReleaseClick(View view) {
+        Intent intent = new Intent(this, ViewHardwareOffReleaseActivity.class);
+        startActivity(intent);
+    }
 }

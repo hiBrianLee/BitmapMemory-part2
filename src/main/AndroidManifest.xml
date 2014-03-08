@@ -21,6 +21,22 @@
         <activity android:name=".SampledImageLoadActivity"
                   android:label="Sampled Image Load Activity"/>
 
+        <activity android:name=".SimpleImageReleaseActivity"
+                  android:label="Simple Image Release Activity"/>
+
+        <activity android:name=".BitmapRecycleActivity"
+                  android:label="Bitmap Recycle Activity"/>
+
+        <activity android:name=".ImageDetachActivity"
+                  android:label="Image Detach Activity"/>
+
+        <activity android:hardwareAccelerated="false"
+                  android:name=".HardwareOffReleaseActivity"
+                  android:label="Hardware Off Release Activity"/>
+
+        <activity android:name=".ViewHardwareOffReleaseActivity"
+                  android:label="View Hardware Off Release Activity"/>
+
         <activity android:name=".OtherActivity"
                   android:label="Other Activity"/>
 
